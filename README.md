@@ -1,14 +1,13 @@
 # Автотесты REST API Яндекс.Диска
 
-Пример проекта автотестов для [REST API Яндекс.Диска](https://yandex.ru/dev/disk/rest/).  
-Тесты выполняются против боевого API (`https://cloud-api.yandex.net`) с OAuth-токеном из [Полигона](https://yandex.ru/dev/disk/poligon/) — **личный аккаунт не требуется**.
+Проект автотестов для [REST API Яндекс.Диска](https://yandex.ru/dev/disk/rest/).  
 
 ## Стек
 
 - Python 3
-- [pytest](https://github.com/pytest-dev/pytest)
-- [requests](https://github.com/psf/requests)
-- python-dotenv (загрузка переменных окружения)
+- [pytest]
+- [requests]
+- python-dotenv 
 
 ## Покрытие HTTP-методов
 
@@ -20,7 +19,7 @@
 | POST   | `/v1/disk/resources/copy`       | `tests/test_post.py`          |
 | DELETE | `/v1/disk/resources`            | `tests/test_delete.py`        |
 
-## Быстрый старт
+##Старт
 
 ### 1. Получить OAuth-токен в Полигоне
 
